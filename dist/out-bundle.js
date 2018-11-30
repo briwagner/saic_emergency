@@ -977,7 +977,7 @@ var axios = __webpack_require__(13);
 
 __webpack_require__(32);
 
-var feedUrl = 'http://localhost:8888/announcements/emergency-announcement';
+var feedUrl = 'http://www.saic.edu/announcements/emergency-announcement';
 var container = document.getElementById('emergency_message');
 
 if (!container) {
