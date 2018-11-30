@@ -2,7 +2,7 @@ import Vue from './node_modules/vue/dist/vue';
 const axios = require('axios');
 require('./sass/main-style.scss');
 
-const feedUrl = 'http://localhost:8888/announcements/emergency-announcement';
+const feedUrl = 'http://www.saic.edu/announcements/emergency-announcement';
 
 let container = document.getElementById('emergency_message');
 if (!container) {
