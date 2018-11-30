@@ -1,0 +1,37 @@
+.emergency-message-saic {
+  position: absolute;
+  top: 180px;
+  z-index: 1000;
+  width: 75%;
+  background-color: rgba(211,211,211,0.9);
+  border-radius: 4px;
+  margin-left: 9%;
+  padding: 5px 15px;
+
+  h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 12px 0;
+  }
+
+  p {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  .btn {
+    display: inline-block;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid #999;
+    padding: 8px;
+  }
+
+  button {
+    float: right;
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #999;
+  }
+}
